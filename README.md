@@ -74,8 +74,8 @@ crypto_tracker/
 <details>
   <summary><b>CMD</b></summary>
   
-![image](![Screenshot 2024-03-03 222000](https://github.com/7GitGuru/crypto-tracker/assets/154711952/52d1a5ef-1924-4916-8bd5-390de1c1fed7)
-)
+(![Screenshot 2024-03-03 222000](https://github.com/7GitGuru/crypto-tracker/assets/154711952/52d1a5ef-1924-4916-8bd5-390de1c1fed7)
+
 
 </details>
 
