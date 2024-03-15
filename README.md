@@ -11,7 +11,8 @@ Crypto Tracker is a Python application that tracks the prices of specified crypt
 [![GitHub license](https://img.shields.io/github/license/7GitGuru/crypto-tracker.svg)](https://github.com/7GitGuru/crypto-tracker/blob/main/LICENSE)
 [![GitHub branches](https://badgen.net/github/branches/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/branches)
 [![GitHub release](https://img.shields.io/github/release/7GitGuru/crypto-tracker.svg)](https://github.com/7GitGuru/crypto-tracker/releases/)
-[![GitHub commits](https://badgen.net/github/commits/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/commit/)
+[![GitHub commits](https://badgen.net/github/commits/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/)
+[![GitHub stars](https://badgen.net/github/stars/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/)
 
 ---
 
