@@ -24,8 +24,16 @@ CryptoTracker is a versatile tool designed to track real-time cryptocurrency pri
 - 💰Track the prices of various cryptocurrencies.
 - 📈Sends updates to a Telegram channel every 15 seconds.
 - 🧑‍💻Flexible Command-line Usage.
-- ⚙️Easy configuration via a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/main/config/config.ini) file.
+- ⚙️Easy configuration via a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/telegram/config/config.ini) file.
 - 💡Simple and lightweight.
+
+### 🔥The bot utilizes emojis to indicate cryptocurrency price changes:
+
+- 📈: Indicates that the price has increased since the last check.
+- 📉: Indicates that the price has decreased since the last check.
+- 💲: Indicates that the price remains unchanged since the last check.
+
+These emojis provide a visual representation of the direction in which the cryptocurrency prices are moving, making it easier for users to interpret the changes at a glance.
 
 ### 🛠️Project Structure:
 <details>
@@ -57,7 +65,7 @@ crypto_tracker/
    pip install -r requirements.txt
    ```
 
-3. **Set up a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/main/config/config.ini) file.**
+3. **Set up a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/telegram/config/config.ini) file.**
 
 4. **Run the bot:**
    ```
@@ -71,7 +79,7 @@ crypto_tracker/
 <details>
   <summary><b>Telegram</b></summary>
   
-![Screenshot 2024-02-29 184301](https://github.com/7GitGuru/crypto-tracker/assets/154711952/5c9baee2-9632-4a7d-ae10-2ac93326be01)
+![image](https://github.com/7GitGuru/crypto-tracker/assets/154711952/a3c2e1b7-8fc3-41cf-9f3f-6d5a6eebb158)
 
 </details>
 
@@ -84,10 +92,8 @@ crypto_tracker/
 
 <details>
   <summary><b>PyPI package</b></summary>
-  
-<!--- ![Screenshot 2024-03-03 222000](https://github.com/7GitGuru/crypto-tracker/assets/154711952/52d1a5ef-1924-4916-8bd5-390de1c1fed7) -->
-![Screenshot 2024-03-15 201610](https://github.com/7GitGuru/crypto-tracker/assets/154711952/cd6685ed-3736-4d96-b8dd-23c6fe1e019b)
 
+![Screenshot 2024-03-17 232730](https://github.com/7GitGuru/crypto-tracker/assets/154711952/88ad5947-9e46-40b8-a3ee-637f650ff96a)
 
 </details>
 
