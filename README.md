@@ -1,24 +1,28 @@
 ### ⭐About the Project
-CryptoTracker is a versatile tool designed to track real-time cryptocurrency prices across multiple exchanges. With CryptoTracker, users can monitor the prices of their favorite cryptocurrencies from popular exchanges such as Binance, Bybit, and Coinbase, not only through the command line interface but also via Telegram and Discord bots.
+CryptoTracker is a versatile tool designed to track real-time cryptocurrency prices across multiple exchanges. With CryptoTracker, users can monitor the prices of their favorite cryptocurrencies from popular exchanges such as Binance, Bybit, and Coinbase, not only via the command line interface, but also the Telegram bot.
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/7GitGuru/crypto-tracker/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/7GitGuru/crypto-tracker/issues">Report Bug</a>
     🔹
     <a href="https://github.com/7GitGuru/crypto-tracker/issues">Request Feature</a>
 </h3>
 
+---
+
+<h3 align="center">
+    
 [![GitHub license](https://img.shields.io/github/license/7GitGuru/crypto-tracker.svg)](https://github.com/7GitGuru/crypto-tracker/blob/main/LICENSE)
 [![GitHub branches](https://badgen.net/github/branches/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/branches)
 [![GitHub release](https://img.shields.io/github/release/7GitGuru/crypto-tracker.svg)](https://github.com/7GitGuru/crypto-tracker/releases/)
 [![GitHub commits](https://badgen.net/github/commits/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/)
 [![GitHub stars](https://badgen.net/github/stars/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/)
 
----
+</h3>
 
 ### 🚀Features
-- 💰Track the prices of various cryptocurrencies..
-- 📈Sends updates to a Telegram/Discord channel every 15 seconds.
+- 💰Track the prices of various cryptocurrencies.
+- 📈Sends updates to a Telegram channel every 15 seconds.
 - 🧑‍💻Flexible Command-line Usage.
 - ⚙️Easy configuration via a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/main/config/config.ini) file.
 - 💡Simple and lightweight.
@@ -53,14 +57,14 @@ crypto_tracker/
    pip install -r requirements.txt
    ```
 
-3. **Set up a config.ini file.**
+3. **Set up a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/main/config/config.ini) file.**
 
 4. **Run the bot:**
    ```
    python main.py
    ```
-- 🤖 Discord bot [installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/discord/README.md)
-- 👩‍💻 CMD Module [installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/cmd/README.md)
+<!--- 🤖 Discord bot [installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/discord/README.md) -->
+- 👩‍💻 PyPI package **[installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/cmd/README.md)**
 
 ### ⚙️DEMO
 
@@ -71,15 +75,15 @@ crypto_tracker/
 
 </details>
 
-<details>
+<!--- <details>
   <summary><b>Discord</b></summary>
   
 ![image](https://github.com/7GitGuru/crypto-tracker/assets/154711952/62c2ecb4-01dd-4d11-92a5-0ba406ec585d)
 
-</details>
+</details> -->
 
 <details>
-  <summary><b>CMD</b></summary>
+  <summary><b>PyPI package</b></summary>
   
 <!--- ![Screenshot 2024-03-03 222000](https://github.com/7GitGuru/crypto-tracker/assets/154711952/52d1a5ef-1924-4916-8bd5-390de1c1fed7) -->
 ![Screenshot 2024-03-15 201610](https://github.com/7GitGuru/crypto-tracker/assets/154711952/cd6685ed-3736-4d96-b8dd-23c6fe1e019b)
