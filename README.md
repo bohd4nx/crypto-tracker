@@ -74,7 +74,7 @@ crypto_tracker/
    python main.py
    ```
 <!--- 🤖 Discord bot [installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/discord/README.md) -->
-- 👩‍💻 PyPI package **[installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/cmd/README.md)**
+- 👩‍💻 PyPI package **[installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/main/README.md)**
 
 ### ⚙️DEMO
 
