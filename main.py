@@ -1,7 +1,7 @@
 import time
 import configparser
 from api import *
-from telegram_bot import send_message
+from bot import send_message
 
 config = configparser.ConfigParser()
 config.read('config/config.ini')
@@ -12,8 +12,9 @@ exchanges_config = config['Exchanges']
 previous_prices = {}
 
 
-# Here you can find a list of all cryptocurrencies you can use:
-# https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json
+#     Here you can find a list of cryptocurrencies you can use. (The list is incomplete.)
+#        ↘️                                                                    ↙️
+#          https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json
 
 def main():
     while True:
