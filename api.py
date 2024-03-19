@@ -7,8 +7,9 @@ import requests
 
 # ❗Use if you want to add something related to the operation of the API
 
-# Here you can find a list of all cryptocurrencies you can use:
-# https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json
+#           Here you can find a list of cryptocurrencies you can use. (The list is incomplete.)
+#             ↘️                                                                    ↙️
+#               https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json
 
 def Binance(coin):
     url = f"https://api.binance.com/api/v3/ticker/price?symbol={coin.upper()}USDT"
@@ -57,4 +58,3 @@ def Coinbase(coin):
 #     response = requests.get(url)
 #     data = response.json()
 #     return float(data['data'][0]['last'])
-
