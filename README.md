@@ -34,7 +34,7 @@ CryptoTracker is a versatile tool designed to track real-time cryptocurrency pri
 
 These emojis provide a visual representation of the direction in which the cryptocurrency prices are moving, making it easier for users to interpret the changes at a glance.
 
-**[Here you can find a list of cryptocurrencies you can use.](https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json)** (The list is incomplete.)
+**[Here you can find a list of all cryptocurrencies you can use.](https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json)**
 
 ### 🛠️Project Structure:
 <details>
