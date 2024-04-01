@@ -77,6 +77,8 @@ crypto_tracker/
 
 ### ⚙️DEMO
 
+https://github.com/7GitGuru/crypto-tracker/assets/154711952/4ab3edb4-6640-43a6-bf13-420417a29f9a
+
 <details>
   <summary><b>Telegram</b></summary>
   
