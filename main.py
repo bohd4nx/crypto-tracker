@@ -2,21 +2,22 @@ import time
 import configparser
 from api import *
 from bot import send_message
+from datetime import datetime
+
 
 config = configparser.ConfigParser()
 config.read('config/config.ini')
 tracked_coins = config['Cryptocurrencies']['cryptocurrency']
-sleep_interval = int(config['Settings']['sleep_interval'])
+sleep_interval = int(config['Settings']['interval'])
 exchanges_config = config['Exchanges']
+new_message = config.getboolean('Settings', 'new_message')
 
 previous_prices = {}
+previous_message_id = None
 
-
-#     Here you can find a list of cryptocurrencies you can use. (The list is incomplete.)
-#        ↘️                                                                    ↙️
-#          https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json
 
 def main():
+    global previous_message_id
     while True:
         for coin in tracked_coins.split(','):
             try:
@@ -60,7 +61,14 @@ def main():
                             emoji = "💲"
                         message += f"{emoji}{exchange}: ${price}\n"
                         previous_prices.setdefault(coin, {})[exchange] = price
-                    send_message(message)
+                    if new_message or previous_message_id is None:
+                        if previous_message_id is not None:
+                            send_message(message, previous_message_id)
+                        else:
+                            previous_message_id = send_message(message)
+                    else:
+                        message += f"\n🕰️Last price update: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC"
+                        send_message(message, previous_message_id)
                 else:
                     print(f"No exchanges available for {coin}")
             except Exception as e:
