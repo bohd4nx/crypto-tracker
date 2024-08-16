@@ -3,19 +3,19 @@ CryptoTracker is a versatile tool designed to track real-time cryptocurrency pri
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/7GitGuru/crypto-tracker/issues">Report Bug</a>
+    <a href="https://github.com/bohd4nx/crypto-tracker/issues">Report Bug</a>
     🔹
-    <a href="https://github.com/7GitGuru/crypto-tracker/issues">Request Feature</a>
+    <a href="https://github.com/bohd4nx/crypto-tracker/issues">Request Feature</a>
 </h3>
 
 ---
 
 <h3 align="center">
     
-[![GitHub license](https://img.shields.io/github/license/7GitGuru/crypto-tracker.svg)](https://github.com/7GitGuru/crypto-tracker/blob/main/LICENSE)
-[![GitHub branches](https://badgen.net/github/branches/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/branches)
-[![GitHub release](https://img.shields.io/github/release/7GitGuru/crypto-tracker.svg)](https://github.com/7GitGuru/crypto-tracker/releases/)
-[![GitHub stars](https://badgen.net/github/stars/7GitGuru/crypto-tracker)](https://github.com/7GitGuru/crypto-tracker/)
+[![GitHub license](https://img.shields.io/github/license/7GitGuru/crypto-tracker.svg)](https://github.com/bohd4nx/crypto-tracker/blob/main/LICENSE)
+[![GitHub branches](https://badgen.net/github/branches/7GitGuru/crypto-tracker)](https://github.com/bohd4nx/crypto-tracker/branches)
+[![GitHub release](https://img.shields.io/github/release/7GitGuru/crypto-tracker.svg)](https://github.com/bohd4nx/crypto-tracker/releases/)
+[![GitHub stars](https://badgen.net/github/stars/7GitGuru/crypto-tracker)](https://github.com/bohd4nx/crypto-tracker/)
 
 </h3>
 
@@ -23,7 +23,7 @@ CryptoTracker is a versatile tool designed to track real-time cryptocurrency pri
 - 💰Track the prices of various cryptocurrencies.
 - 📈Sends updates to a Telegram channel every 15 seconds.
 - 🧑‍💻Flexible Command-line Usage.
-- ⚙️Easy configuration via a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/telegram/config/config.ini) file.
+- ⚙️Easy configuration via a [`config.ini`](https://github.com/bohd4nx/crypto-tracker/blob/telegram/config/config.ini) file.
 - 💡Simple and lightweight.
 
 ### 🔥The bot utilizes emojis to indicate cryptocurrency price changes:
@@ -34,7 +34,7 @@ CryptoTracker is a versatile tool designed to track real-time cryptocurrency pri
 
 These emojis provide a visual representation of the direction in which the cryptocurrency prices are moving, making it easier for users to interpret the changes at a glance.
 
-**[Here you can find a list of all cryptocurrencies you can use.](https://github.com/7GitGuru/crypto-tracker/blob/main/coin-names.json)**
+**[Here you can find a list of all cryptocurrencies you can use.](https://github.com/bohd4nx/crypto-tracker/blob/main/coin-names.json)**
 
 ### 🛠️Project Structure:
 <details>
@@ -58,7 +58,7 @@ crypto_tracker/
 ### 👨‍💻Installation:
 1. **Clone the repository:**
    ```
-   git clone https://github.com/7GitGuru/crypto-tracker.git
+   git clone https://github.com/bohd4nx/crypto-tracker.git
    ```
 
 2. **Install the required dependencies:**
@@ -66,37 +66,37 @@ crypto_tracker/
    pip install -r requirements.txt
    ```
 
-3. **Set up a [`config.ini`](https://github.com/7GitGuru/crypto-tracker/blob/telegram/config/config.ini) file.**
+3. **Set up a [`config.ini`](https://github.com/bohd4nx/crypto-tracker/blob/telegram/config/config.ini) file.**
 
 4. **Run the bot:**
    ```
    python main.py
    ```
-<!--- 🤖 Discord bot [installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/discord/README.md) -->
-- 👩‍💻 PyPI package **[installation instructions](https://github.com/7GitGuru/crypto-tracker/blob/main/README.md)**
+<!--- 🤖 Discord bot [installation instructions](https://github.com/bohd4nx/crypto-tracker/blob/discord/README.md) -->
+- 👩‍💻 PyPI package **[installation instructions](https://github.com/bohd4nx/crypto-tracker/blob/main/README.md)**
 
 ### ⚙️DEMO
 
-https://github.com/7GitGuru/crypto-tracker/assets/154711952/4ab3edb4-6640-43a6-bf13-420417a29f9a
+https://github.com/bohd4nx/crypto-tracker/assets/154711952/4ab3edb4-6640-43a6-bf13-420417a29f9a
 
 <details>
   <summary><b>Telegram</b></summary>
   
-![image](https://github.com/7GitGuru/crypto-tracker/assets/154711952/a3c2e1b7-8fc3-41cf-9f3f-6d5a6eebb158)
+![image](https://github.com/bohd4nx/crypto-tracker/assets/154711952/a3c2e1b7-8fc3-41cf-9f3f-6d5a6eebb158)
 
 </details>
 
 <!--- <details>
   <summary><b>Discord</b></summary>
   
-![image](https://github.com/7GitGuru/crypto-tracker/assets/154711952/62c2ecb4-01dd-4d11-92a5-0ba406ec585d)
+![image](https://github.com/bohd4nx/crypto-tracker/assets/154711952/62c2ecb4-01dd-4d11-92a5-0ba406ec585d)
 
 </details> -->
 
 <details>
   <summary><b>PyPI package</b></summary>
 
-![Screenshot 2024-03-17 232730](https://github.com/7GitGuru/crypto-tracker/assets/154711952/88ad5947-9e46-40b8-a3ee-637f650ff96a)
+![Screenshot 2024-03-17 232730](https://github.com/bohd4nx/crypto-tracker/assets/154711952/88ad5947-9e46-40b8-a3ee-637f650ff96a)
 
 </details>
 
